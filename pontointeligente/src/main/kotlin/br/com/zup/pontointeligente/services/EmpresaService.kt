@@ -2,7 +2,7 @@ package br.com.zup.pontointeligente.services
 
 import br.com.zup.pontointeligente.documents.Empresa
 
-interface EmpresaService {
+interface   EmpresaService {
 
     fun buscarPorCnpj(cnpj: String): Empresa?
 
